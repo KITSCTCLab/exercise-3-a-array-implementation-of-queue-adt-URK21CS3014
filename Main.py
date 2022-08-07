@@ -72,7 +72,7 @@ class Solution:
         if self.is_stack_full()==False:
             
             self.top+=1
-            self.stack[self.top]=character
+            self.stack[self.top-1]=character
 
 
     def enqueue_character(self, character):
