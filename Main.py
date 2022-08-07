@@ -29,7 +29,7 @@ class Solution:
           True if it is empty, else returns False.
         """
         # Write your code here
-         return self.top==-1
+        return self.top==-1
 
 
     def is_queue_empty(self):
