@@ -82,7 +82,7 @@ class Solution:
             character: A character that will be enqueued to queue.
         """
         # Write your code here
-         if self.is_queue_full()==False:
+        if self.is_queue_full()==False:
             if self.front==-1:
                 self.front=0
             self.rear+=1
