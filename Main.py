@@ -69,7 +69,7 @@ class Solution:
             character: A character that will be pushed to the stack.
         """
         # Write your code here
-         if self.is_stack_full()==False:
+        if self.is_stack_full()==False:
             
             self.top+=1
             self.stack[self.top]=character
