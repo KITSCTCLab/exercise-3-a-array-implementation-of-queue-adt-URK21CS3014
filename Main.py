@@ -109,7 +109,7 @@ class Solution:
           The data that is dequeued if the queue is not empty.
         """
         # Write your code here
-         if self.is_queue_empty()==False:
+        if self.is_queue_empty()==False:
             x=self.queue[self.front]
             if self.front==self.rear:
                 self.front=-1
